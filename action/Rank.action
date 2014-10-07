@@ -1,0 +1,18 @@
+#goal definition
+
+# only one of the following should be provided
+sensor_msgs/Image[] imgs
+sensor_msgs/CompressedImage[] compressed_imgs
+string[] strs
+
+---
+#result definition
+
+# the order of the ranked values
+int32[] sort_order
+
+# the eegs of each image
+float32[] eeg
+
+---
+#feedback
