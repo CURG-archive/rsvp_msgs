@@ -1,5 +1,7 @@
 #goal definition
 
+int32[] option_ids
+
 # only one of the following should be provided
 sensor_msgs/Image[] imgs
 sensor_msgs/CompressedImage[] compressed_imgs
@@ -8,11 +10,11 @@ string[] strs
 ---
 #result definition
 
-# the order of the ranked values
-int32[] sort_order
+# the ids of the ranked values
+int32[] option_ids
 
-# the eegs of each image
-float32[] eeg
+# the confidence values of each image
+float32[] confidences
 
 ---
 #feedback
