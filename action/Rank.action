@@ -1,11 +1,14 @@
 #goal definition
 
 int32[] option_ids
+string[] descriptions
+float32[] costs
 
 # only one of the following should be provided
 sensor_msgs/Image[] imgs
 sensor_msgs/CompressedImage[] compressed_imgs
 string[] strs
+
 
 ---
 #result definition
