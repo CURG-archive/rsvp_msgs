@@ -3,6 +3,7 @@
 int32[] option_ids
 string[] descriptions
 float32[] costs
+float32[] similarity
 
 # only one of the following should be provided
 sensor_msgs/Image[] imgs
